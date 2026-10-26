@@ -121,6 +121,12 @@ struct UpdatesView: View {
     /// with `voiceflow-updates/appcast.xml`. The website is a separate repository.
     /// Trim to the most recent ~8 releases — older entries live on the website.
     private static let releaseHistory: [Release] = [
+        Release(version: "4.0.0", date: "Oct 26, 2026", changes: [
+            "Sonotexta is now free and open source under the GPL-3.0. The code is on GitHub at github.com/stanleyswiss/Sonotexta, and contributions are welcome.",
+            "Every feature is unlocked for everyone: cloud engines, AI cleanup, translation and profiles work with your own API keys, or stay fully on-device. No licence, trial or account any more.",
+            "The managed Sonotexta AI and Cloud proxy has been retired. If you relied on it, add your own API key in Connections, or switch to an on-device engine. Sonotexta moves keyless cloud selections back to Apple Speech automatically.",
+            "If Sonotexta saves you time, you can support it with a coffee: buymeacoffee.com/stanelych.",
+        ]),
         Release(version: "3.16.6", date: "Sep 21, 2026", changes: [
             "FaceTime dictation now works alongside calls on the built-in Mac microphone. Sonotexta handles the three-channel call route explicitly and selects a real microphone channel before converting to mono.",
             "Experimental local Qwen3-ASR is available for 30 languages and runs offline after download. Review longer transcripts carefully: this CoreML conversion can add words near chunk boundaries, and Bulgarian is not supported.",
