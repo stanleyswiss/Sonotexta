@@ -1,0 +1,12 @@
+// Code signing team for local builds.
+//
+// Left empty so anyone can build from source: pick your own team in Xcode
+// (Signing & Capabilities) or create Config/Signing.local.xcconfig with
+//
+//     DEVELOPMENT_TEAM = YOURTEAMID
+//
+// Signing.local.xcconfig is gitignored and overrides the value below.
+
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

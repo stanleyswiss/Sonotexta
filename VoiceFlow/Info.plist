@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>VoiceFlow needs microphone access to transcribe your speech.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>VoiceFlow uses speech recognition to convert your voice to text.</string>
+	<key>SUAllowsAutomaticUpdates</key>
+	<false/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://stanleyswiss.github.io/voiceflow-updates/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>Kdofv65DF5A5q4WknE1Gm2cbL53JmunDpNWBh0mfWso=</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>14400</integer>
+</dict>
+</plist>

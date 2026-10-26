@@ -1,0 +1,21 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+/build/
+/.build
+.swiftpm/
+FluidAudio-local/.build/
+*.profraw
+*.dmg
+*.xcarchive
+
+# Local signing team (see README)
+Config/Signing.local.xcconfig
+
+# Never commit signing or API keys
+AuthKey_*.p8
+*.p12
+.env*
+
+# Maintainer-only notes kept outside version control
+/private/
